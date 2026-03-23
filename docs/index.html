@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonathan Hussaini — Digital Entrepreneur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">JH<span class="logo-dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://wa.link/3ifkob" target="_blank" class="nav-wa">WhatsApp</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="hero-badge fade-up">🚀 Available for Projects</span>
+        <h1 class="hero-headline fade-up">Helping Students &amp;<br/>Entrepreneurs<br/><span class="gradient-text">Succeed Online</span></h1>
+        <p class="hero-tagline fade-up">Projects · Websites · Digital Products · and More</p>
+        <div class="hero-cta fade-up">
+          <button class="btn btn-primary" id="openEbookModal">📘 Buy My eBook</button>
+          <a href="#contact" class="btn btn-outline">💼 Hire Me</a>
+          <a href="https://wa.link/3ifkob" target="_blank" class="btn btn-wa">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.554 4.122 1.522 5.862L.057 23.617a.75.75 0 00.92.919l5.83-1.456A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.92 0-3.722-.5-5.285-1.377l-.38-.215-3.938.983.998-3.857-.234-.396A9.952 9.952 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+        <div class="hero-stats fade-up">
+          <div class="stat"><span class="stat-num">200+</span><span class="stat-label">Students Helped</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Websites Built</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">1st</span><span class="stat-label">Class Graduate</span></div>
+        </div>
+      </div>
+      <div class="hero-image-wrap fade-up">
+        <div class="hero-image-frame">
+          <!-- REPLACE: swap this div for an <img src="your-photo.jpg" alt="Jonathan Hussaini"> -->
+          <div class="img-placeholder hero-img-placeholder">
+            <span>📸</span>
+            <p>Replace with your photo</p>
+          </div>
+          <div class="hero-img-badge badge-top">Chemistry 1st Class 🎓</div>
+          <div class="hero-img-badge badge-bottom">Digital Expert ⚡</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap reveal">
+          <div class="about-img-frame">
+            <!-- REPLACE: <img src="about-photo.jpg" alt="Jonathan Hussaini"> -->
+            <div class="img-placeholder about-img-placeholder">
+              <span>📸</span>
+              <p>Professional photo here</p>
+            </div>
+          </div>
+          <div class="about-experience-badge">
+            <span class="exp-num">5+</span>
+            <span class="exp-text">Years<br/>Experience</span>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title">Turning Knowledge<br/>into Digital Value</h2>
+          <p class="about-lead">I'm Jonathan Hussaini — a First Class Chemistry graduate turned digital entrepreneur. I leverage academic rigour and creative tech skills to help students excel and businesses grow online.</p>
+          <p class="about-body">From writing outstanding project reports to building stunning websites, selling digital products, and crafting powerful marketing campaigns, I've spent years turning knowledge into impact. My goal is simple: help you succeed faster, smarter, and better.</p>
+          <div class="about-tags">
+            <span class="tag">🎓 First Class Chemistry</span>
+            <span class="tag">💻 Web Developer</span>
+            <span class="tag">📢 Digital Marketer</span>
+            <span class="tag">📝 Academic Writer</span>
+            <span class="tag">📊 Data Specialist</span>
+          </div>
+          <div class="about-cta">
+            <a href="#contact" class="btn btn-primary">Work With Me</a>
+            <a href="https://wa.link/3ifkob" target="_blank" class="btn btn-outline">Chat on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES SECTION
+  ============================================================ -->
+  <section id="services" class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label light">What I Do</span>
+        <h2 class="section-title light">Premium Services<br/>Built for Results</h2>
+        <p class="section-sub">Five core services designed to help you achieve your goals — whether you're a student, a startup, or an established brand.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon">📝</div>
+          <h3>Project Writing</h3>
+          <p>Professional academic project writing for students at all levels. Well-researched, plagiarism-free, and delivered on time. From proposals to full dissertations.</p>
+          <ul class="service-list">
+            <li>Research &amp; dissertations</li>
+            <li>Proposals &amp; reports</li>
+            <li>Proofreading &amp; editing</li>
+          </ul>
+          <a href="https://wa.link/3ifkob" target="_blank" class="service-link">Get started →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">🌐</div>
+          <h3>Website Design</h3>
+          <p>Modern, fast, and conversion-optimised websites that look great on every device. Portfolio sites, business pages, landing pages, and e-commerce.</p>
+          <ul class="service-list">
+            <li>Custom design &amp; development</li>
+            <li>Mobile-first responsive</li>
+            <li>SEO-ready builds</li>
+          </ul>
+          <a href="https://wa.link/3ifkob" target="_blank" class="service-link">Get started →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">📡</div>
+          <h3>Data Sales</h3>
+          <p>Reliable, affordable data bundles for individuals and businesses. Stay connected with competitive rates and instant delivery directly to your device.</p>
+          <ul class="service-list">
+            <li>All network bundles</li>
+            <li>Bulk data for businesses</li>
+            <li>Instant &amp; 24/7 available</li>
+          </ul>
+          <a href="https://wa.link/3ifkob" target="_blank" class="service-link">Buy data →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">📘</div>
+          <h3>eBook Creation</h3>
+          <p>Transform your knowledge into beautifully designed, professional eBooks. I handle writing, design, and formatting so you can sell with confidence.</p>
+          <ul class="service-list">
+            <li>Ghostwriting &amp; content</li>
+            <li>Professional layout &amp; design</li>
+            <li>PDF &amp; digital-ready formats</li>
+          </ul>
+          <a href="https://wa.link/3ifkob" target="_blank" class="service-link">Get started →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">📣</div>
+          <h3>Digital Marketing</h3>
+          <p>Grow your brand and reach the right audience online. From social media strategy to paid ads and content marketing — I help businesses grow digitally.</p>
+          <ul class="service-list">
+            <li>Social media management</li>
+            <li>Content strategy &amp; creation</li>
+            <li>Ad campaigns &amp; analytics</li>
+          </ul>
+          <a href="https://wa.link/3ifkob" target="_blank" class="service-link">Get started →</a>
+        </div>
+
+        <div class="service-card service-card-cta reveal">
+          <div class="service-icon">✨</div>
+          <h3>Custom Solutions</h3>
+          <p>Have a unique challenge? Let's talk. I love taking on creative briefs and building tailored digital solutions for individuals and businesses.</p>
+          <a href="https://wa.link/3ifkob" target="_blank" class="btn btn-primary" style="margin-top:auto;">Let's Talk</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PORTFOLIO SECTION
+  ============================================================ -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">My Work</span>
+        <h2 class="section-title">Selected Projects</h2>
+        <p class="section-sub">A glimpse into some of the projects I've delivered. Each one crafted with precision and purpose.</p>
+      </div>
+      <div class="portfolio-grid">
+
+        <div class="portfolio-card reveal">
+          <!-- REPLACE: <img src="project1.jpg" alt="Student Project"> -->
+          <div class="img-placeholder portfolio-img">
+            <span>📄</span>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Academic Writing</span>
+            <h4>Final Year Chemistry Project</h4>
+            <p>Comprehensive 80-page dissertation on sustainable synthesis methods. Secured a First Class grade for the client.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <!-- REPLACE: <img src="project2.jpg" alt="Website Design"> -->
+          <div class="img-placeholder portfolio-img">
+            <span>🌐</span>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Website Design</span>
+            <h4>E-Commerce Fashion Store</h4>
+            <p>Fully responsive online store with product listings, cart, and payment integration for a Lagos-based boutique.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <!-- REPLACE: <img src="project3.jpg" alt="eBook"> -->
+          <div class="img-placeholder portfolio-img">
+            <span>📘</span>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">eBook</span>
+            <h4>"Make Money Online in Nigeria"</h4>
+            <p>A 50-page guide on verified online income streams, beautifully designed and sold digitally with 300+ downloads.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <!-- REPLACE: <img src="project4.jpg" alt="Digital Marketing"> -->
+          <div class="img-placeholder portfolio-img">
+            <span>📣</span>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Digital Marketing</span>
+            <h4>Social Media Campaign</h4>
+            <p>Instagram &amp; Facebook campaign for a food brand that grew their page from 200 to 5,000 followers in 60 days.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <!-- REPLACE: <img src="project5.jpg" alt="Business Website"> -->
+          <div class="img-placeholder portfolio-img">
+            <span>💼</span>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Website Design</span>
+            <h4>Consulting Firm Website</h4>
+            <p>Professional multi-page website with booking system, blog, and CRM integration for a consulting startup.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <!-- REPLACE: <img src="project6.jpg" alt="Data Services"> -->
+          <div class="img-placeholder portfolio-img">
+            <span>📡</span>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Data Services</span>
+            <h4>Bulk Data Reseller System</h4>
+            <p>Automated data reselling portal serving 100+ daily customers with instant delivery and payment verification.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS SECTION
+  ============================================================ -->
+  <section id="testimonials" class="section section-teal">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label light">Testimonials</span>
+        <h2 class="section-title light">What Clients Say</h2>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Jonathan helped me with my final year project and I couldn't believe the quality. He understood my topic better than I did! I submitted with confidence and got an A. Highly recommend."</p>
+          <div class="testimonial-author">
+            <!-- REPLACE: <img src="testi1.jpg" alt="Amaka"> -->
+            <div class="testi-avatar">AO</div>
+            <div>
+              <strong>Amaka Okonkwo</strong>
+              <span>Final Year Student, UNIBEN</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"My business website was delivered in 5 days and it looks incredible! Very professional, mobile-friendly, and exactly what I wanted. Jonathan is the real deal — responsive and talented."</p>
+          <div class="testimonial-author">
+            <div class="testi-avatar">KA</div>
+            <div>
+              <strong>Kingsley Adeyemi</strong>
+              <span>Business Owner, Lagos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"I bought his eBook on digital marketing and it completely changed how I run my online store. Practical, clear, and worth every naira. Also got data from him — fastest delivery ever!"</p>
+          <div class="testimonial-author">
+            <div class="testi-avatar">FI</div>
+            <div>
+              <strong>Fatima Ibrahim</strong>
+              <span>Online Entrepreneur, Abuja</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CALL TO ACTION SECTION
+  ============================================================ -->
+  <section id="cta" class="section section-cta">
+    <div class="cta-orb cta-orb-1"></div>
+    <div class="cta-orb cta-orb-2"></div>
+    <div class="container">
+      <div class="cta-content reveal">
+        <span class="section-label light">Ready to Start?</span>
+        <h2 class="cta-headline">Your Success Starts<br/>with One Click</h2>
+        <p class="cta-sub">Whether you need a project, a website, or knowledge in an eBook — I'm here to deliver. Let's make something great together.</p>
+        <div class="cta-buttons">
+          <button class="btn btn-white" id="openEbookModal2">📘 Buy My eBook</button>
+          <a href="#contact" class="btn btn-outline-white">💼 Hire Me</a>
+          <a href="https://wa.link/3ifkob" target="_blank" class="btn btn-wa">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.554 4.122 1.522 5.862L.057 23.617a.75.75 0 00.92.919l5.83-1.456A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.92 0-3.722-.5-5.285-1.377l-.38-.215-3.938.983.998-3.857-.234-.396A9.952 9.952 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-sub">Have a project in mind? Fill out the form or reach me directly on WhatsApp for a faster response.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Get In Touch</h3>
+          <p>I typically respond within a few hours. For urgent enquiries, WhatsApp is the fastest way to reach me.</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <span class="contact-icon">📱</span>
+              <div>
+                <strong>WhatsApp</strong>
+                <a href="https://wa.link/3ifkob" target="_blank">Chat with me now</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">🏦</span>
+              <div>
+                <strong>eBook Payment (Opay)</strong>
+                <span>Account: 9040240451 — Jonathan Hussaini</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">⏰</span>
+              <div>
+                <strong>Response Time</strong>
+                <span>Within 2–4 hours (Mon–Sat)</span>
+              </div>
+            </div>
+          </div>
+          <a href="https://wa.link/3ifkob" target="_blank" class="btn btn-wa wa-big">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.554 4.122 1.522 5.862L.057 23.617a.75.75 0 00.92.919l5.83-1.456A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.92 0-3.722-.5-5.285-1.377l-.38-.215-3.938.983.998-3.857-.234-.396A9.952 9.952 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+            Message Me on WhatsApp
+          </a>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="contactName">Full Name</label>
+              <input type="text" id="contactName" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">Email Address</label>
+              <input type="email" id="contactEmail" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="contactMessage">Message</label>
+              <textarea id="contactMessage" rows="5" placeholder="Tell me about your project or question…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="contactSubmitBtn">Send Message ✉️</button>
+            <div id="contactSuccess" class="form-success" style="display:none;">
+              ✅ Thanks! I'll get back to you soon. For faster response, <a href="https://wa.link/3ifkob" target="_blank">WhatsApp me</a>.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="logo">JH<span class="logo-dot">.</span></a>
+          <p>Digital entrepreneur helping students and businesses succeed online through quality projects, websites, and digital products.</p>
+          <a href="https://wa.link/3ifkob" target="_blank" class="btn btn-wa btn-sm">WhatsApp Me</a>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-services">
+          <h4>Services</h4>
+          <ul>
+            <li>Project Writing</li>
+            <li>Website Design</li>
+            <li>Data Sales</li>
+            <li>eBook Creation</li>
+            <li>Digital Marketing</li>
+          </ul>
+        </div>
+        <div class="footer-ebook">
+          <h4>Get My eBook</h4>
+          <p>Packed with proven strategies to succeed online. Pay via Opay.</p>
+          <div class="ebook-bank-info">
+            <p><strong>Bank:</strong> Opay</p>
+            <p><strong>Name:</strong> Jonathan Hussaini</p>
+            <p><strong>Acct:</strong> 9040240451</p>
+          </div>
+          <button class="btn btn-primary btn-sm" id="openEbookModalFooter">Buy eBook →</button>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="footerYear"></span> Jonathan Hussaini. All rights reserved.</p>
+        <p>Built with ❤️ for digital success.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       EBOOK MODAL
+  ============================================================ -->
+  <div id="ebookModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Close modal">✕</button>
+
+      <!-- STEP 1: Payment Instructions -->
+      <div id="modalStep1">
+        <div class="modal-icon">📘</div>
+        <h2 id="modalTitle">Get Your eBook</h2>
+        <p class="modal-sub">Learn proven digital strategies to earn and grow online. One-time payment, lifetime value.</p>
+
+        <div class="payment-box">
+          <h4>💳 Payment Instructions</h4>
+          <div class="payment-detail">
+            <span class="pay-label">Bank</span>
+            <span class="pay-value">Opay</span>
+          </div>
+          <div class="payment-detail">
+            <span class="pay-label">Account Name</span>
+            <span class="pay-value">Jonathan Hussaini</span>
+          </div>
+          <div class="payment-detail highlight">
+            <span class="pay-label">Account Number</span>
+            <span class="pay-value acct-num" id="acctNum">9040240451</span>
+          </div>
+          <button class="copy-btn" id="copyAcct" onclick="copyAccount()">📋 Copy Account Number</button>
+        </div>
+
+        <p class="modal-note">After making payment, enter your details below so we can send your eBook:</p>
+
+        <form id="ebookForm" novalidate>
+          <div class="form-group">
+            <label for="ebookName">Your Full Name</label>
+            <input type="text" id="ebookName" placeholder="e.g. Amaka Okonkwo" required />
+          </div>
+          <div class="form-group">
+            <label for="ebookEmail">Email Address</label>
+            <input type="email" id="ebookEmail" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="ebookPhone">WhatsApp Number (optional)</label>
+            <input type="tel" id="ebookPhone" placeholder="+234 800 000 0000" />
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="ebookSubmitBtn">
+            ✅ I've Paid – Confirm My Order
+          </button>
+        </form>
+      </div>
+
+      <!-- STEP 2: Thank You Message -->
+      <div id="modalStep2" style="display:none;">
+        <div class="modal-icon success-icon">🎉</div>
+        <h2>Payment Received!</h2>
+        <p class="modal-sub">Thank you, <strong id="thanksName"></strong>! Your payment is being confirmed.</p>
+        <div class="success-box">
+          <p>📩 Your eBook will be sent to <strong id="thanksEmail"></strong> within <strong>24 hours</strong>.</p>
+          <p>For faster delivery, send your payment proof on WhatsApp:</p>
+        </div>
+        <a href="https://wa.link/3ifkob" target="_blank" class="btn btn-wa btn-full">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.554 4.122 1.522 5.862L.057 23.617a.75.75 0 00.92.919l5.83-1.456A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.92 0-3.722-.5-5.285-1.377l-.38-.215-3.938.983.998-3.857-.234-.396A9.952 9.952 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+          Send Payment Proof on WhatsApp
+        </a>
+        <button class="btn btn-outline btn-full" style="margin-top:12px;" onclick="closeModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
